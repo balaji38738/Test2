@@ -7,8 +7,9 @@ public class Test {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter two numbers: ");
 		int num1 = sc.nextInt(), num2 = sc.nextInt();
-		int result = num1 + num2;
-		System.out.println(result);
+		int sum = num1 + num2;
+		int multiply = num1 * num2;
+		System.out.println(sum + " " + multiply);
 
 	}
 }
