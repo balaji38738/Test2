@@ -9,7 +9,10 @@ public class Test {
 		int num1 = sc.nextInt(), num2 = sc.nextInt();
 		int sum = num1 + num2;
 		int multiply = num1 * num2;
-		System.out.println(sum + " " + multiply);
+		int division = num1 / num2;
+		System.out.println("Sum = " + sum);
+		System.out.println("Multiplication = " + multiply);
+		System.out.println("Division = " + division);
 
 	}
 }
